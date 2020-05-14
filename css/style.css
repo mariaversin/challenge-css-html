@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: rgb(206, 202, 202);
+    font-family: 'open sans';
+}
+
+/* Header */
+
+header{
+    padding: 20px 50px 20px 50px;
+    
+    
+}
+.textos-header {
+    background: url("../images/flowers.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px #888888;
+    border: solid 10px white;
+}
+
+header .textos-header{
+    display: inline-flex;
+    height: 230px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+.textos-header h1 #name{
+    font-size: 50px;
+    color:rgb(100, 100, 100);
+}
+.textos-header h1{
+    margin-left: 20px;
+    font-size: 50px;
+    color:rgb(177, 14, 104);
+    font-weight: 500;
+}
+
+.textos-header h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 80px;
+    color:rgb(100, 100, 100);
+}
+
+#contenedor {
+    padding: 10px 50px 10px 50px;
+}
+
+.aside {
+    float: left;
+    width: 18%;
+    color: #888888; 
+    padding: 3px; 
+    position: relative;             
+}
+    
+
+.aside .art1 {
+    height: 500px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px #888888;
+    border: solid 10px white;
+    margin-bottom: 15px;
+}
+
+
+.art1 h1, .art2 h1, .art3 h1 {
+    color: rgb(100, 100, 100);
+    margin-top: 18px;
+    font-size: 22px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 3px;
+}
+.art1 a, .art2 a, .art3 a {
+    color: rgb(177, 14, 104);
+    font-size: 15px;
+    margin-left: 10px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+dd, dt {
+    line-height: 1.5;
+}
+
+
+.art1 dd {
+    color: rgb(112, 109, 110);
+    font-size: 15px;
+    margin-left: 10px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+dt::before {
+    font-size: 8px;
+    color: rgb(177, 14, 104);
+    content: "\27A4";
+  } 
+  
+.linea {
+    border-bottom: solid grey dotted;
+    border-style: dashed;
+    font-weight: 200;
+    width: 98%;
+    margin-top: 5px;
+
+}
+
+a #imp {
+    
+    border-bottom: 1px dashed rgbrgb(177, 14, 104);
+    text-decoration:none;
+    
+}
+
+.aside .art2 {
+    
+    height: 140px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px #888888;
+    border: solid 10px white;
+    margin-bottom: 15px;
+}
+
+.aside .art3 {
+    height: 220px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px #888888;
+    border: solid 10px white;
+    margin-bottom: 8px;
+}
+
+.main {
+    float: right;
+    width: 80%;
+    height: 200px;
+    padding: 3px;
+    color: #888888; 
+    
+}
+.main .parrafo1 {
+    height: 110px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px #888888;
+    border: solid 10px white;
+    margin-bottom: 15px;
+    
+}
+.text1, .text2 {
+    margin-left: 100px;
+}
+.text2 a {
+    color: rgb(177, 14, 104);
+    font-weight: 500;
+}
+
+
+/* Párrafos y títulos impares */
+
+/*.parrafo1 p,*/ .parrafo3 p, .parrafo5 p,
+.parrafo3 h1, .parrafo5 h1
+{
+    margin-left: 100px;
+    margin-right: 0px;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+/* Párrafos y títulos pares */
+
+.parrafo2 p, .parrafo4 p,
+.parrafo2 h1, .parrafo4 h1
+{
+    margin-left: 10px;
+    margin-right: 100px;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+/* Titulos de los párrafos */
+
+.parrafo2 h1, .parrafo3 h1, .parrafo4 h1,.parrafo5 h1 {
+    color: rgb(100, 100, 100);
+    margin-top: 18px;
+    font-size: 22px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.main .parrafo2 {
+    height: 300px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px #888888;
+    border: solid 10px white;
+    margin-bottom: 15px;
+   
+}
+.main .parrafo3 {
+    height: 300px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px #888888;
+    border: solid 10px white;
+    margin-bottom: 15px;  
+}
+
+.main .parrafo4 {
+    height: 400px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px #888888;
+    border: solid 10px white;
+    margin-bottom: 15px;
+}
+.main .parrafo5 {
+    height: 130px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px #888888;
+    border: solid 10px white;
+    margin-bottom: 8px;
+}
