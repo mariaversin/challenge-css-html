@@ -5,11 +5,15 @@
   }
 
 body {
-    background-color: rgb(206, 202, 202);
+    background-color: rgb(221, 218, 218);
     font-family: 'open sans';
 }
 
-/* Header */
+/* 
+
+HEADER  
+
+*/
 
 header{
     padding: 20px 50px 20px 50px;
@@ -54,9 +58,22 @@ header .textos-header{
     color:rgb(100, 100, 100);
 }
 
+/* 
+
+CONTENEDOR --> ASIDE Y MAIN 
+
+*/ 
+
 #contenedor {
     padding: 10px 50px 10px 50px;
 }
+
+
+/* 
+
+A S I D E
+
+*/
 
 .aside {
     float: left;
@@ -126,9 +143,8 @@ dt::before {
 
 a #imp {
     
-    border-bottom: 1px dashed rgbrgb(177, 14, 104);
+    border-bottom: 1px dashed rgb(177, 14, 104);
     text-decoration:none;
-    
 }
 
 .aside .art2 {
@@ -142,13 +158,20 @@ a #imp {
 }
 
 .aside .art3 {
-    height: 220px;
+    height: 230px;
     background-color: rgb(236, 236, 236);
     border-radius: 10px;
     box-shadow: 8px 8px 8px #888888;
     border: solid 10px white;
     margin-bottom: 8px;
 }
+
+
+/*
+
+M A I N 
+
+*/
 
 .main {
     float: right;
@@ -167,52 +190,6 @@ a #imp {
     margin-bottom: 15px;
     
 }
-.text1, .text2 {
-    margin-left: 100px;
-}
-.text2 a {
-    color: rgb(177, 14, 104);
-    font-weight: 500;
-}
-
-
-/* Párrafos y títulos impares */
-
-/*.parrafo1 p,*/ .parrafo3 p, .parrafo5 p,
-.parrafo3 h1, .parrafo5 h1
-{
-    margin-left: 100px;
-    margin-right: 0px;
-    display: inline-flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: left;
-}
-
-/* Párrafos y títulos pares */
-
-.parrafo2 p, .parrafo4 p,
-.parrafo2 h1, .parrafo4 h1
-{
-    margin-left: 10px;
-    margin-right: 100px;
-    display: inline-flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: left;
-}
-
-/* Titulos de los párrafos */
-
-.parrafo2 h1, .parrafo3 h1, .parrafo4 h1,.parrafo5 h1 {
-    color: rgb(100, 100, 100);
-    margin-top: 18px;
-    font-size: 22px;
-    justify-content: center;
-    flex-direction: column;
-    text-align: left;
-}
-
 .main .parrafo2 {
     height: 300px;
     background-color: rgb(236, 236, 236);
@@ -220,6 +197,7 @@ a #imp {
     box-shadow: 8px 8px 8px #888888;
     border: solid 10px white;
     margin-bottom: 15px;
+
    
 }
 .main .parrafo3 {
@@ -232,7 +210,7 @@ a #imp {
 }
 
 .main .parrafo4 {
-    height: 400px;
+    height: 410px;
     background-color: rgb(236, 236, 236);
     border-radius: 10px;
     box-shadow: 8px 8px 8px #888888;
@@ -240,10 +218,83 @@ a #imp {
     margin-bottom: 15px;
 }
 .main .parrafo5 {
-    height: 130px;
+    height: 135px;
     background-color: rgb(236, 236, 236);
     border-radius: 10px;
     box-shadow: 8px 8px 8px #888888;
     border: solid 10px white;
     margin-bottom: 8px;
 }
+
+
+/* 
+
+PARRAFO 1 
+
+*/
+.parrafo1 .text1, .text2 {
+    margin-left: 100px;
+}
+.parrafo1 .text2 a {
+    color: rgb(177, 14, 104);
+    font-weight: 500;
+}
+
+/* 
+
+PARRAFO 2 y 4
+
+*/
+.parrafo2 h1, .parrafo4 h1 {
+    color: rgb(100, 100, 100);
+    margin-top: 18px;
+    margin-left: 10px;
+    font-size: 22px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+.parrafo2 .text1,.parrafo2 .text2,
+.parrafo4 .text1,.parrafo4 .text2
+{
+    margin-right: 100px;
+    margin-left: 10px;
+}
+
+.parrafo2 .text1 span,.parrafo2 .text2 span,
+.parrafo4 .text1 span,.parrafo4 .text2 span
+ {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
+.parrafo4 a {
+    color: rgb(177, 14, 104);
+    font-weight: 500;
+}
+
+
+/*
+
+PARRAFO 3 y 5
+
+*/
+.parrafo3 h1, .parrafo5 h1 {
+    color: rgb(100, 100, 100);
+    margin-top: 18px;
+    margin-left: 100px;
+    font-size: 22px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+.parrafo3 .text1, .text2, .parrafo5 .text1 {
+    margin-left: 100px;
+}
+.parrafo3 .text1 span,.parrafo3 .text2 span,
+.parrafo5 .text1 span
+{
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
