@@ -86,7 +86,7 @@ A S I D E
 
 .aside .art1 {
     height: 500px;
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(247, 247, 247);
     border-radius: 10px;
     box-shadow: 8px 8px 8px #888888;
     border: solid 10px white;
@@ -143,14 +143,16 @@ dt::before {
 
 a #imp {
     
-    border-bottom: 1px dashed rgb(177, 14, 104);
+    border-bottom: rgb(177, 14, 104);
     text-decoration:none;
+    border-bottom-style: dotted;
+    border-bottom-width: 2px;
 }
 
 .aside .art2 {
     
     height: 140px;
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(247, 247, 247);
     border-radius: 10px;
     box-shadow: 8px 8px 8px #888888;
     border: solid 10px white;
@@ -159,7 +161,7 @@ a #imp {
 
 .aside .art3 {
     height: 230px;
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(247, 247, 247);
     border-radius: 10px;
     box-shadow: 8px 8px 8px #888888;
     border: solid 10px white;
@@ -178,21 +180,21 @@ M A I N
     width: 80%;
     height: 200px;
     padding: 3px;
-    color: #888888; 
+    color: #6d6a6a; 
     
 }
 .main .parrafo1 {
-    height: 110px;
-    background-color: rgb(236, 236, 236);
+    height: 130px;
+    background-color: rgb(247, 247, 247);
     border-radius: 10px;
     box-shadow: 8px 8px 8px #888888;
     border: solid 10px white;
     margin-bottom: 15px;
-    
+
 }
 .main .parrafo2 {
     height: 300px;
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(247, 247, 247);
     border-radius: 10px;
     box-shadow: 8px 8px 8px #888888;
     border: solid 10px white;
@@ -202,7 +204,7 @@ M A I N
 }
 .main .parrafo3 {
     height: 300px;
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(247, 247, 247);
     border-radius: 10px;
     box-shadow: 8px 8px 8px #888888;
     border: solid 10px white;
@@ -211,7 +213,7 @@ M A I N
 
 .main .parrafo4 {
     height: 410px;
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(247, 247, 247);
     border-radius: 10px;
     box-shadow: 8px 8px 8px #888888;
     border: solid 10px white;
@@ -219,83 +221,101 @@ M A I N
 }
 .main .parrafo5 {
     height: 135px;
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(247, 247, 247);
     border-radius: 10px;
     box-shadow: 8px 8px 8px #888888;
     border: solid 10px white;
     margin-bottom: 8px;
 }
 
+/* IMAGEN PARRAFO 1*/
 
-/* 
-
-PARRAFO 1 
-
-*/
-.parrafo1 .text1, .text2 {
+.parrafo1 .texto {
     margin-left: 100px;
+    margin-right: 50px;
+    position:absolute;
+    margin-top: 10px;
+    margin-right: 150px;
+    
 }
-.parrafo1 .text2 a {
+
+.parrafo1 img {
+    opacity: 0.2;
+    float: right;
+    position: relative;
+    width: 790px;
+    height: 50px;
+}
+.parrafo1 .texto a {
     color: rgb(177, 14, 104);
     font-weight: 500;
 }
 
-/* 
+/* IMAGEN PARRAFO 2 y 4*/
 
-PARRAFO 2 y 4
-
-*/
-.parrafo2 h1, .parrafo4 h1 {
-    color: rgb(100, 100, 100);
-    margin-top: 18px;
+.parrafo2 .texto, .parrafo4 .texto {
     margin-left: 20px;
+    margin-right: 100px;
+    position:absolute;
+    margin-top: 10px;
+    margin-right: 150px;   
+}
+
+.parrafo2 img, .parrafo4 img {
+    opacity: 0.2;
+    float: left;
+    position: relative;
+    width: 790px;
+    height: 50px;
+}
+.parrafo2 h1, .parrafo4 h1{
+    color: rgb(100, 100, 100);
+    margin-left: 5px;
     font-size: 22px;
     justify-content: center;
     flex-direction: column;
     text-align: left;
 }
-.parrafo2 .text1,.parrafo2 .text2,
-.parrafo4 .text1,.parrafo4 .text2
-{
-    margin-right: 100px;
-    margin-left: 20px;
-}
-
-.parrafo2 .text1 span,.parrafo2 .text2 span,
-.parrafo4 .text1 span,.parrafo4 .text2 span
+.parrafo2 .texto span,
+.parrafo4 .texto span
  {
-    text-decoration-line: underline;
-    text-decoration-style: dotted;
+    border-bottom-style: dotted;
+    border-bottom-width: 2px;
 }
 
 .parrafo4 a {
     color: rgb(177, 14, 104);
     font-weight: 500;
 }
-
-
-/*
-
-PARRAFO 3 y 5
-
-*/
-.parrafo3 h1, .parrafo5 h1 {
-    color: rgb(100, 100, 100);
-    margin-top: 18px;
+/* IMAGEN PARRAFO 3 y 5*/
+.parrafo3 .texto, .parrafo5 .texto {
     margin-left: 100px;
+    margin-right: 50px;
+    position:absolute;
+    margin-top: 10px;
+    margin-right: 150px;   
+}
+
+.parrafo3 img, .parrafo5 img {
+    opacity: 0.2;
+    float: right;
+    position: relative;
+    width: 790px;
+    height: 50px;
+}
+.parrafo3 h1, .parrafo5 h1{
+    color: rgb(100, 100, 100);
+    margin-left: 5px;
     font-size: 22px;
     justify-content: center;
     flex-direction: column;
     text-align: left;
 }
-.parrafo3 .text1, .text2, .parrafo5 .text1 {
-    margin-left: 100px;
-    margin-right: 20px;
-}
-.parrafo3 .text1 span,.parrafo3 .text2 span,
-.parrafo5 .text1 span
+.parrafo3 .texto span,
+.parrafo5 .texto span
 {
-    text-decoration-line: underline;
-    text-decoration-style: dotted;
-}
 
+    border-bottom-style: dotted;
+    border-bottom-width: 2px;
+   
+}
