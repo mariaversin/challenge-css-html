@@ -80,12 +80,12 @@ A S I D E
     width: 18%;
     color: #888888; 
     padding: 3px; 
-    position: relative;             
+            
 }
     
 
 .aside .art1 {
-    height: 500px;
+    height: 515px;
     background-color: rgb(247, 247, 247);
     border-radius: 10px;
     box-shadow: 8px 8px 8px #888888;
@@ -93,10 +93,23 @@ A S I D E
     margin-bottom: 15px;
 }
 
+/* IMAGEN ASIDE */
+.art1 .texto {
+    
+    position: relative;
+}
+
+.aside  img,.aside img,.aside img {
+    display: flex;
+    opacity: 0.2;
+    position:absolute;
+    width: 200px;
+    height: 20px;
+    
+}
 
 .art1 h1, .art2 h1, .art3 h1 {
     color: rgb(100, 100, 100);
-    margin-top: 18px;
     font-size: 22px;
     justify-content: center;
     flex-direction: column;
@@ -107,8 +120,6 @@ A S I D E
     color: rgb(177, 14, 104);
     font-size: 15px;
     margin-left: 10px;
-    justify-content: center;
-    flex-direction: column;
     text-align: left;
 }
 
@@ -147,11 +158,12 @@ a #imp {
     text-decoration:none;
     border-bottom-style: dotted;
     border-bottom-width: 2px;
+    
 }
 
 .aside .art2 {
     
-    height: 140px;
+    height: 150px;
     background-color: rgb(247, 247, 247);
     border-radius: 10px;
     box-shadow: 8px 8px 8px #888888;
@@ -160,14 +172,13 @@ a #imp {
 }
 
 .aside .art3 {
-    height: 230px;
+    height: 240px;
     background-color: rgb(247, 247, 247);
     border-radius: 10px;
     box-shadow: 8px 8px 8px #888888;
     border: solid 10px white;
     margin-bottom: 8px;
 }
-
 
 /*
 
@@ -243,7 +254,7 @@ M A I N
     opacity: 0.2;
     float: right;
     position: relative;
-    width: 790px;
+    width: 870px;
     height: 50px;
 }
 .parrafo1 .texto a {
@@ -265,7 +276,7 @@ M A I N
     opacity: 0.2;
     float: left;
     position: relative;
-    width: 790px;
+    width: 870px;
     height: 50px;
 }
 .parrafo2 h1, .parrafo4 h1{
@@ -300,7 +311,7 @@ M A I N
     opacity: 0.2;
     float: right;
     position: relative;
-    width: 790px;
+    width: 870px;
     height: 50px;
 }
 .parrafo3 h1, .parrafo5 h1{
